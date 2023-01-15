@@ -15,14 +15,11 @@ RUN curl -sL https://deb.nodesource.com/setup_14.x | bash -
 RUN apt-get install -y nodejs && npm install wscat
 
 # download and build TA-Lib
-RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && \
-  tar -xvzf ta-lib-0.4.0-src.tar.gz && \
-  cd ta-lib/ && \
-  ./configure --prefix=/usr && \
-  make && \
-  make install
+# RUN wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz && tar -xvzf ta-lib-0.4.0-src.tar.gz &&  cd ta-lib/ && ./configure --prefix=/usr && make && make install
 
 RUN rm -R ta-lib ta-lib-0.4.0-src.tar.gz
 
 # install popular Python packages
 RUN pip3 install -r requirements.txt
+
+RUN yarn start

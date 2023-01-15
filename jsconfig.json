@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "baseUrl": "src"
+    },
+    "include": ["web/web2/dashboard/src/**/*"],
+    "exclude": ["node_modules"]
+}
