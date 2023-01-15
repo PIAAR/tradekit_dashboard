@@ -15,6 +15,9 @@ tulipy
 psycopg2
 sqlalchemy
 
+# database  libraries
+pymongo
+
 # broker API libraries
 alpaca-trade-api
 python-binance

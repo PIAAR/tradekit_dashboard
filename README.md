@@ -10,6 +10,7 @@ The goal of TradeKit is to maintain a collection of open source server component
 * [Python 3.8](https://www.python.org/) - the most popular language for data science, analysis, and machine learning
 * [PostgreSQL 12](https://www.postgresql.org/) - the world's most advanced open source database
 * [TimeScaleDB 2.0](https://www.timescale.com/) - open source time-series database built on top of PostgreSQL
+* [MongoDB] ()
 
 ## Web Frameworks
 

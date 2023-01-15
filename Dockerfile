@@ -1,6 +1,6 @@
 FROM python:3.8
 
-MAINTAINER Part Time Larry "parttimelarry@gmail.com"
+# MAINTAINER Part Time Larry "parttimelarry@gmail.com"
 
 ADD . /app
 
